@@ -15,5 +15,5 @@ form.addEventListener("submit", (e) => {
 })
 
 button.addEventListener("click", () => {
-    window.location.href = "/Loja/html/loja.html";
+    window.location.href = "../../Loja/html/loja.html";
 })
