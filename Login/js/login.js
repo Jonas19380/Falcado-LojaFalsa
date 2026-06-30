@@ -13,7 +13,7 @@ form.addEventListener("submit", async (e) => {
 
     const gotdata = JSON.parse(localStorage.getItem("data")) || [];
     if (gotdata.email === getdata.email && gotdata.password === getdata.password) {
-        window.location.href = "./Loja/html/loja.html";
+        window.location.href = "../../Loja/html/loja.html";
     } else {
         document.querySelector("#error").textContent = "Email ou senha incorretos. Tente novamente.";
         error.style.margin = "0.5rem";
